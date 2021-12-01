@@ -17,7 +17,7 @@ measurements[0..-1].each_slice(3) {
             prev = n.sum
         end
         break
-    }
+}
 
 while cont < x
     measurements[cont..-1].each_slice(3) {
