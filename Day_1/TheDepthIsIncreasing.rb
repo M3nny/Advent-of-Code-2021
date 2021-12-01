@@ -11,10 +11,12 @@ measurements.each_cons(2) {
     |a, b|
     if b != 0
         if b > a
-            #puts "#{b} (increased)" debug
+            puts "#{b} (increased)" 
             increase += 1
+        elsif b == a 
+            puts "#{b} (no change)" 
         else
-            #puts "#{b} (decreased)" debug
+            puts "#{b} (decreased)" 
         end
     end
 }
