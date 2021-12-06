@@ -9,5 +9,4 @@ while cont < 80:
         fishes[i] = fishes[i]-1
     cont += 1
 
-
 print(len(fishes))
